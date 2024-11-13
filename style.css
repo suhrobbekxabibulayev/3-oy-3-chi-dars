@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: 'DM Sans',;
+  background: rgba(246, 245, 246, 1);
+}
+.bento-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-left: 160px;
+  margin-top: 83px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bento-grid__div:nth-child(1){
+  background: var(--color-yellow-100, rgba(249, 238, 226, 1));
+  width: 256px;
+  height: 415px;
+  border-radius: 10px;
+  margin-left: 160px;
+}
+.bento-grid__div:nth-child(2){
+  background: var(--color-purple-500, rgba(117, 81, 220, 1));
+  width: 544px;
+  height: 324px;
+  border-radius: 10px;
+}
+.div__h1:nth-child(1){
+  color:  var(--color-black, rgba(18, 18, 18, 1));
+  font-weight: 500;
+  font-style: italic;
+  font-size: 40px;
+  margin-left: 32px;
+  line-height: 36px;
+  margin-top: 78px;
+}
+.h1___strong{
+  color: var(--color-purple-500, rgba(117, 81, 220, 1));
+}
+.bento-grid__div:nth-child(3){
+  width: 256px;
+  height: 603px;
+  border-radius: 10px;
+  background: var(--color-purple-100, rgba(219, 209, 252, 1));
+}
+.bento-grid__div:nth-child(4){
+  width: 256px;
+  height: 434px;
+  border-radius: 10px;
+  background: var(--color-yellow-500, rgba(255, 204, 106, 1));
+  margin-left: 160px;
+  margin-bottom: 12pxx;
+}
+.bento-grid__button{
+  background: var(--color-yellow-500, rgba(255, 204, 106, 1));
+  width: 190px;
+  height: 60px;
+  margin-left: 32px;
+  border: none;
+  border-radius: 42px;
+}
+.div__2__img{
+  margin-top: 12px;
+}
+.div__storng{
+  color: var(--color-yellow-500, rgba(255, 204, 106, 1));
+}
+.grid__div__h1{
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-weight: 500;
+  font-size: 62px;
+  align-items: center;
+  line-height: 58px;
+  margin-left: 32px;
+}
+.div__h1__h1{
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-weight: 700;
+  font-size: 62px;
+  margin-left: 60px;
+}
+.bento-grid__div__img{
+  width: 192px;
+  height: 32px;
+  margin-left: 164px;
+}
+.bento-grid__div__img__p{
+  color: var(--color-white, rgba(255, 255, 255, 1));
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 161px;
+}
